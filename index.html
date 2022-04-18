@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenn Gutierrez - Personal Website</title>
+    <link rel="shortcut icon" href="assets/images/favicon/favicon.ico">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://kit.fontawesome.com/e85cd44674.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"> <img src="assets/images/logo-white-font.png" class="my_logo" alt="my logo"> </a>
+
+            <div class="nav__menu">
+
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home'></i>
+
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-desktop'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+
+                        <a href="#job" class="nav__link">
+                            <i class='bx bx-briefcase'></i>
+
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bxs-contact'></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- ----------------------HOME SECTION------------------------------ -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello! I'm </span>
+                    <h1 class="home__name">Kenn Carlo Gutierrez</h1>
+                    <h3 class="home__education"> <span class="typing-anim"></span></h3>
+                    <div class="home__buttons">
+                        <a download="" href="/assets/CV/GUTIERREZ_CV.pdf" class="button"><i class='bx bx-download' ></i> Download CV</a>
+                        <a href="#about" class="button button--ghost">About Me</a>
+                    </div>
+                </div>
+                <div class="home__handle">
+                    <img src="/assets/images/pic.png" alt="my_pic" class="home__img">
+                </div>
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/kenn-carlo-gutierrez/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://github.com/kenngxx" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://web.facebook.com/zxczzxc" target="_blank" class="home__social-link">
+                        <i class='bx bxl-facebook-square'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+
+        </section>
+
+        <!-- -------------------------------ABOUT ME SECTION ------------------------------- -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">Introduction</span>
+            <br>
+            <p class="about__me">Hello! I'm Kenn Carlo Gutierrez, a Computer Engineering Student with a Specialization in Software Engineering. I am currently studying at De La Salle University - Dasmariñas. I am familiar with front-end languages like HTML, CSS, and a little
+                JavaScript, and for the back-end, I know Python, C++, and Java. As a computer engineering student, I also have an understanding of computer hardware as well as Arduino microcontrollers. Currently, I am working as a Freelance Technical
+                Writer for <a href="https://www.vultr.com/docs/">Vultr Docs</a> where I create guides or 'How-Tos' about Web Applications, and Cloud or Linux Systems.</p><br><br>
+
+            <div class="about__container container">
+                <div class="about__tabs">
+                    <div class="about__button button--flex about__active" data-target="#education">
+                        <i class='bx bxs-graduation about__icon'></i> Educational Background
+                    </div>
+
+                    <div class="about__button button--flex" data-target="#work">
+                        <i class='bx bx-briefcase about__icon'></i> Work Experience
+                    </div>
+                </div>
+
+                <div class="about__sections">
+                    <!-- Education -->
+                    <div class="about__content about__active" data-content id="education">
+                        <!-- College -->
+                        <div class="about__data">
+                            <div>
+                                <h3 class="about__title">College - B.S. in Computer Engineering</h3>
+                                <span class="about__subtitle">De La Salle University - Dasmariñas</span>
+                                <div class="about__calendar">
+                                    <i class='bx bx-calendar'></i> 2018 - Present
+                                </div>
+                            </div>
+                            <div>
+                                <span class="about__rounder"></span>
+                                <span class="about__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- Senior High School -->
+                        <div class="about__data">
+                            <div></div>
+
+                            <div>
+                                <span class="about__rounder"></span>
+                                <span class="about__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="about__title">Senior High School - STEM Strand</h3>
+                                <span class="about__subtitle">Jesus Son of Mary Academy</span>
+                                <div class="about__calendar">
+                                    <i class='bx bx-calendar'></i> 2016 - 2018
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Junior High School -->
+                        <div class="about__data">
+                            <div>
+                                <h3 class="about__title">Junior High School</h3>
+                                <span class="about__subtitle">Jesus Son of Mary Academy</span>
+                                <div class="about__calendar">
+                                    <i class='bx bx-calendar'></i> 2012 - 2016
+                                </div>
+                            </div>
+                            <div>
+                                <span class="about__rounder"></span>
+                                <span class="about__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- Elementary -->
+                        <div class="about__data">
+                            <div></div>
+                            <div>
+                                <span class="about__rounder"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="about__title">Elementary</h3>
+                                <span class="about__subtitle">Dasmariñas II Central School</span>
+                                <div class="about__calendar">
+                                    <i class='bx bx-calendar'></i> 2006 - 2012
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Work -->
+                    <div class="about__content" data-content id="work">
+                        <!-- Freelance -->
+                        <div class="about__data">
+                            <div></div>
+                            <div style="text-align: center;">
+                                <h3 class="about__title">Freelance Technical Writer</h3>
+                                <span class="about__subtitle"><a href="https://www.vultr.com/docs/" target="_blank">Vultr Docs</a></span>
+                                <div class="about__calendar">
+                                    <i class='bx bx-calendar'></i> August 2021 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <!-- <span class="about__rounder"></span> -->
+                                <!-- <span class="about__line"></span> -->
+                            </div>
+                        </div>
+                        <p class="work__desc">I write article guides or 'How-Tos' about Web Applications, and Cloud or Linux Systems.</p>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!-- -----------------------------------SKILLS SECTION----------------------------------- -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My Technical Level</span>
+
+            <div class="skills__container container grid">
+
+                <div>
+                    <!-- ----------------- FRONTEND SKILLS --------------------- -->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class='bx bx-code-alt skills__icon'></i>
+                            <div>
+                                <h1 class="skills__title">Frontend Developer</h1>
+                                <span class="skills__subtitle">Beginner - Intermediate Level</span>
+                            </div>
+                            <i class='bx bxs-chevron-down-circle skills__arrow'></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">30%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ----------------- BACKEND SKILLS --------------------- -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class='bx bx-code-curly skills__icon'></i>
+                            <div>
+                                <h1 class="skills__title">Backend Developer</h1>
+                                <span class="skills__subtitle">Beginner - Intermediate Level</span>
+                            </div>
+                            <i class='bx bxs-chevron-down-circle skills__arrow'></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C++</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__cpp"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!-- ----------------- DESIGN SKILLS --------------------- -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class='bx bxs-palette skills__icon'></i>
+                            <div>
+                                <h1 class="skills__title">Designer</h1>
+                                <span class="skills__subtitle">Beginner - Intermediate Level</span>
+                            </div>
+
+                            <i class='bx bxs-chevron-down-circle skills__arrow'></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Photoshop</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__ps"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__figma"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work section" id="job">
+            <h2 class="section__title">Work</h2>
+            <span class="section__subtitle">My Freelance Work</span><br>
+            <p class="work__intro">Here's a list of Articles that I have submitted to Vultr and was published.</p>
+
+            <div class="article__list">
+                <table class="articles">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Article Title</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-install-streamlit-on-ubuntu">How to Install Streamlit on Ubuntu 21.04</a></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-install-streamlit-on-debian-10">How to Install Streamlit on Debian 10</a></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-install-streamlit-on-centos-8">How to Install Streamlit on CentOS 8</a></td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td><a href="https://www.vultr.com/docs/update-python3-on-debian">Update Python3 on Debian</a></td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td><a href="https://www.vultr.com/docs/update-python3-on-centos">Update Python3 on CentOS</a></td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-install-dash-on-ubuntu">How to Install Dash on Ubuntu 21.04</a></td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-install-dash-on-debian-10">How to Install Dash on Debian 10 </a></td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-install-dash-on-centos-8">How to Install Dash on CentOS 8 </a></td>
+                        </tr>
+                        <tr>
+                            <td>9.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-run-a-python-discord-bot-on-ubuntu-21-04">How to Run a Python Discord Bot on Ubuntu 21.04</a></td>
+                        </tr>
+                        <tr>
+                            <td>10.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-run-a-python-discord-bot-on-debian-10">How to Run a Python Discord Bot on Debian 10</a></td>
+                        </tr>
+                        <tr>
+                            <td>11.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-run-a-python-discord-bot-on-centos-8">How to Run a Python Discord Bot on CentOS 8</a></td>
+                        </tr>
+                        <tr>
+                            <td>12.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-run-a-python-discord-bot-on-a-docker-application">How to Run a Python Discord Bot on a Docker Application</a></td>
+                        </tr>
+                        <tr>
+                            <td>13.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-run-a-discord-js-bot-on-debian-11">How to Run a Discord.js Bot on Debian 11</a></td>
+                        </tr>
+                        <tr>
+                            <td>14.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-run-a-discord-js-bot-on-centos-8">How to Run a Discord.js Bot on CentOS 8</a></td>
+                        </tr>
+                        <tr>
+                            <td>15.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-run-a-discord-js-bot-on-a-docker-application">How to Run a Discord.js Bot on a Docker Application</a></td>
+                        </tr>
+                        <tr>
+                            <td>16.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-install-openemr-on-ubuntu-20-04">How to Install OpenEMR on Ubuntu 20.04</a></td>
+                        </tr>
+                        <tr>
+                            <td>17.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-install-openemr-on-centos-7">How to Install OpenEMR on CentOS 7</a></td>
+                        </tr>
+                        <tr>
+                            <td>18.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-install-woocommerce-on-centos-7">How to Install WooCommerce on CentOS 7</a></td>
+                        </tr>
+                        <tr>
+                            <td>19.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-use-owncloud-with-vultr-block-storage-and-object-storage">How to use ownCloud with Vultr Block Storage and Object Storage</a></td>
+                        </tr>
+                        <tr>
+                            <td>20.</td>
+                            <td><a href="https://www.vultr.com/docs/how-to-install-flarum-forum-on-ubuntu-20-04">How to Install Flarum Forum on Ubuntu 20.04</a></td>
+                        </tr>
+
+                    </tbody>
+
+
+                </table>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- -----------------------------------CONTACT ME---------------------------- -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Message me:</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">contact-me@kenn-gutierrez.com</span>
+
+                            <a href="mailto:contact-me@kenn-gutierrez.com" target="_blank" class="contact__button">
+                                Email Me <i class='bx bx-link-external contact__button-icon' ></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-telegram contact__card-icon'></i><i class='bx bxs-phone-call contact__card-icon'></i>
+                            <h3 class="contact__card-title">Telegram | Phone Number</h3>
+                            <span class="contact__card-data">(+63)956 320 0965</span>
+
+                            <a href="https://web.telegram.org/z/" target="_blank" class="contact__button">
+                                Message Me <i class='bx bx-link-external contact__button-icon' ></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-messenger contact__card-icon'></i>
+                            <h3 class="contact__card-title">Messenger</h3>
+                            <span class="contact__card-data">Kenn Gutierrez</span>
+
+                            <a href="https://m.me/zxczzxc" target="_blank" class="contact__button">
+                                Message Me <i class='bx bx-link-external contact__button-icon' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Send me an Email:</h3>
+
+                    <form target="_top" method="post" enctype="text/plain" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input type="text" id="Name" name="Name" placeholder="Enter your Name" class="contact__form-input" required>
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Email</label>
+                            <input type="email" id="Email" name="Email" placeholder="Enter your Email Address" class="contact__form-input" required>
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Message</label>
+                            <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Write your Message" class="contact__form-input" required></textarea>
+                        </div>
+
+                        <button class="button" onclick="sendMail()" type="submit" id="send_message">Send Message <i class='bx bxs-send contact__button-icon' ></i></button>
+                        <button class="button" type="reset">Reset Fields</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Kenn Carlo Gutierrez - Personal Website</h1>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#job" class="footer__link">Freelance Works</a>
+                </li>
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer__link">Contact Me</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://web.facebook.com/zxczzxc" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/kenn-carlo-gutierrez/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+
+                <a href="https://github.com/kenngxx" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; <a href="https://web.facebook.com/zxczzxc">Kenn Carlo Gutierrez</a>. All Rights Reserved 2022.
+            </span>
+
+            <span class="footer__copy">
+                <a href="https://github.com/kenngxx/Personal-Website"><i class='bx bx-code' ></i> Source Code <i class='bx bx-code-alt' ></i> on <i class='bx bxl-github' ></i></a>
+            </span>
+
+
+        </div>
+    </footer>
+
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
